@@ -17,6 +17,7 @@ Other methods for dataset creation will be discussed, as well as the interesting
 use cases for each and the challenges associated with maintaining these databases
 will be discussed.
 
+This code is hosted on both [GitHub](https://github.com/tomswartz07/CPOSC2020) and [GitLab](https://gitlab.com/tom.swartz07/CPOSC2020).
 
 ## Learning Objectives
 
