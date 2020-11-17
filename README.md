@@ -13,57 +13,56 @@ The talk will focus on how to use Postgres, Raspberry Pis, and Software Defined
 Radios to capture and store long-term radio data; particularly weather stations
 and aircraft.
 
-Other methods for dataset creation will be discussed, as well as the interesting
-use cases for each and the challenges associated with maintaining these databases
-will be discussed.
+Other non-radio based methods for dataset creation will also be discussed.
+Additional topics include interesting use cases for the data and challenges
+associated with maintaining the various databases.
 
-This code is hosted on both [GitHub](https://github.com/tomswartz07/CPOSC2020) and [GitLab](https://gitlab.com/tom.swartz07/CPOSC2020).
+This code is hosted on both [GitHub](https://github.com/tomswartz07/CPOSC2020)
+and [GitLab](https://gitlab.com/tom.swartz07/CPOSC2020).
 
 ## Learning Objectives
 
-The talk covers a number of topics and common issues observed by those who
-frequently use databases, covering items such as: 
-- pgMonitor/Grafana 
-- PostGIS applications 
-- Monitoring use cases 
-- Cluster Replication 
-- pgBackRest applications on low-end hardware 
-- Resolving issues associated with large datasets
+The ideal audience member is someone who is familiar with PostgreSQL or
+databases in general, or someone who is interested in creating useful sample
+data for educational purposes.
 
-The ideal audience member is someone who is familiar with PostgreSQL or databases
-in general, or someone who is interested in creating useful sample data for educational
-purposes.
+The talk covers a number of topics and common issues observed by those who
+frequently use databases, such as:
+- PostGIS applications for sample data
+- Resolving issues associated with large datasets
+- Grafana data visualizations
+- Database maintenance issues
 
 ## Session Outline
-- Introduction 
-  - Brief explanation on how Software Defined Radio (SDR) works 
-  - Overview of need which spurred this project 
-  - Overview of software stack 
-- Weather Data to PG 
-  - Discussion about how the weather2pg app functions in depth 
-  - Overview of database schema 
-  - Demonstration of data visualization 
-  - Presentation of issues encountered, resolutions 
-  - Issues with duplicate source data 
-  - Issues with long query times 
-  - Issues with frontend design (Grafana quirks) 
-- Airplane Tracking to PG 
-  - Discussion about ADS/B tracking 
-  - Overview of ADSB database schema 
-  - Demonstration of data visualization 
-  - Presentation of issues encountered, resolutions 
-  - Issues with amount of data, ingestion volume 
-  - Issues with speed-of-light and time-of-flight 
+- Introduction
+  - Overview of need which spurred this project
+  - Brief explanation on how Software Defined Radio (SDR) works
+  - Overview of software stack
+- Weather Data to PG
+  - Discussion about how the weather2pg app functions in depth
+  - Overview of database schema
+  - Demonstration of data visualization uses
+  - Presentation of issues encountered, resolutions
+  - Issues with duplicate source data
+  - Issues with long query times
+  - Issues with frontend design (Grafana quirks)
+- Airplane Tracking to PG
+  - Discussion about ADS/B tracking
+  - Overview of ADSB database schema
+  - Demonstration of data visualization uses
+  - Presentation of issues encountered, resolutions
+  - Issues with amount of data, ingestion volume
   - Issues with displaying large amounts of GIS location data
 - PiHole Stats in PG
-  - Discussion about need for PG with PiHole Stats
+  - Discussion about need for long term storage of PiHole stats
   - Overview of DB Schema
-  - Demonstration of data visualization
+  - Demonstration of data visualizations
   - Issues with data retention, data lifetime
   - Tuning autovacuum and fine-detail Postgres settings
-- Coronavirus information in PG 
-  - Discussion about need for COVID-19 tracking for Pennsylvania 
-  - Overview of covid19 database 
+- Coronavirus information in PG
+  - Discussion about need for COVID-19 tracking for Pennsylvania
+  - Overview of covid19 database
+  - Discussion of different data sources
   - Presentation of the dataset and analysis methods
 
 
@@ -78,7 +77,7 @@ challenges associated with building and maintaining their own datasets.
 
 ## Making the presentation
 
-Assuming you have `pdflatex` installed, or TeXLive 
+Assuming you have `pdflatex` installed, or TeXLive
 simply run the following command:
 
 ```sh
