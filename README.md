@@ -86,3 +86,18 @@ pdflatex cposc2020.tex
 ```
 
 The PDF document will be generated and viewable for you.
+
+## External Resources
+
+There are a number of projects and external resources which were referenced in this
+presentation.
+They can be found here:
+
+- [ADSB Live View](https://globe.adsbexchange.com/)
+- [RTL SDR Blog](https://www.rtl-sdr.com/)
+- [RTL 433](https://github.com/merbanan/rtl_433)
+- [Weather Dashboard](https://github.com/tomswartz07/grafana-sdr-weather)
+- [Dump1090](https://github.com/tomswartz07/dump1090)
+- [ADSB Ingest Python Script](https://github.com/tomswartz07/grafana-sdr-weather/tree/master/dump1090)
+- [PiHole API Script](https://github.com/tomswartz07/pihole-stats-postgres)
+- [COVID-19 Dataset](https://github.com/tomswartz07/covid19-pennsylvania)
